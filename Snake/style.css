@@ -1,0 +1,37 @@
+body {
+    background-color: #E8F4F4;
+}
+
+#root {
+    text-align: center;
+}
+
+.btn{
+    width:100px;
+    height: 50px;
+    display: none;
+    margin: 10px auto 10px auto;
+
+    background: #16a085;
+    color:#fff;
+}
+
+
+
+.lados {
+    display: flex;
+}
+
+.lado {
+    margin: 10px auto 10px auto;
+}
+
+@media screen and (max-width: 750px) {
+    .btn {
+        display: block;
+    }
+    
+    .solo {
+        display: block;
+    }
+}    

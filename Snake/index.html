@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">    
+    
+</head>
+<body>
+    <div id="root">
+        <h1>Snake</h1>
+        <canvas width="340" height="340"></canvas>
+    </div>
+    <button class="btn solo" id="up" onclick="command('up')">Up</button>
+    <div class="lados">
+    	<button class="btn lado" id="left" onclick="command('left')">Left</button>
+    	<button class="btn lado" id="space" onclick="command('space')">Space/Restart</button>
+        <button class="btn lado" id="right" onclick="command('right')">Right </button>
+    </div>
+    <button class="btn solo" id="down" onclick="command('down')">Down</button>
+    
+    <script src="app.js"></script>
+</body>
+</html>
